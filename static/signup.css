@@ -1,0 +1,62 @@
+body{
+	width: 100%;
+	height: auto;
+	
+}
+
+.container-fluid{
+    padding-right: 0px; 
+    padding-left: 0px; 
+    margin-right: auto; 
+    margin-left: auto;
+	position: relative;
+}
+
+.centered{
+	overflow-wrap: initial;
+	position: absolute;
+	left:50%;
+	top: 35%;
+	transform: translate(-50%, -50%);	
+	color: rgba();
+	font-family: cursive;
+
+}
+
+
+nav{
+	background-color: rgba(0,18,39,0.85);
+}
+
+#white{
+	color: #D3D8CA
+}
+
+#white:hover{
+	color: white;
+}
+
+h1 {
+  text-shadow: 1px 1px #000000;
+}
+
+footer{
+	bottom: 0;
+	margin: 0
+
+}
+.zone{
+	font-size: 25px; 
+	font-family: cursive;
+	cursor: pointer;
+	text-align: center;	
+	border-bottom: 1px solid black;
+	transition: all 0.3s linear;
+	background-color: black;
+	color: white;
+}
+
+.sizee{
+	padding: 10px 50px;
+	font-size: 17px
+}
